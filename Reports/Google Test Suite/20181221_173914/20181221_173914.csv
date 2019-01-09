@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Google Test Suite,Firefox 64.0,,2018-12-21 17:39:22,2018-12-21 17:39:32,9.857s,FAILED
-,,,,,,
-Test Cases/Google Test Case,Firefox 64.0,,2018-12-21 17:39:23,2018-12-21 17:39:31,8.627s,FAILED
-"openBrowser("""")",Firefox 64.0,,2018-12-21 17:39:23,2018-12-21 17:39:28,5.443s,PASSED
-"navigateToUrl(""https://www.google.com/"")",Firefox 64.0,,2018-12-21 17:39:28,2018-12-21 17:39:31,2.462s,PASSED
-"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""Pakistan"")",Firefox 64.0,,2018-12-21 17:39:31,2018-12-21 17:39:31,0.164s,PASSED
-"click(findTestObject(""Object Repository/Page_Google/input_Remove_btnK""))",Firefox 64.0,,2018-12-21 17:39:31,2018-12-21 17:39:31,0.181s,FAILED
