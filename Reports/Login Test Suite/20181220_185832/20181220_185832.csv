@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Test Suite,Chrome 71.0.3578.98,,2018-12-20 18:58:35,2018-12-20 18:59:48,1m - 12.168s,FAILED
+,,,,,,
+Test Cases/Login Test,Chrome 71.0.3578.98,,2018-12-20 18:58:36,2018-12-20 18:59:34,58.563s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-20 18:58:36,2018-12-20 18:58:40,3.881s,PASSED
+"navigateToUrl(""https://webapp-jawaid.casitron.com/login"")",Chrome 71.0.3578.98,,2018-12-20 18:58:40,2018-12-20 18:58:50,10.245s,PASSED
+"setText(findTestObject(""Page_Member Login - Casitron Limite/input_User name_username""), ""TST_TESTUSER"")",Chrome 71.0.3578.98,,2018-12-20 18:58:50,2018-12-20 18:58:50,0.206s,PASSED
+"setEncryptedText(findTestObject(""Page_Member Login - Casitron Limite/input_Password_password""), ""gksac6Gz+3UdXMBwyFfMUQ=="")",Chrome 71.0.3578.98,,2018-12-20 18:58:50,2018-12-20 18:58:51,0.190s,PASSED
+"click(findTestObject(""Page_Member Login - Casitron Limite/span_Login""))",Chrome 71.0.3578.98,,2018-12-20 18:58:51,2018-12-20 18:58:51,0.089s,PASSED
+"click(findTestObject(""Object Repository/Page_Home - Casitron Limited/span_LEASING COMPANY INC""))",Chrome 71.0.3578.98,,2018-12-20 18:58:51,2018-12-20 18:59:03,12.585s,PASSED
+"click(findTestObject(""Object Repository/Page_Home - Casitron Limited/a_TSTAR3""))",Chrome 71.0.3578.98,,2018-12-20 18:59:03,2018-12-20 18:59:34,30.884s,FAILED
+,,,,,,
+Test Cases/Invalid Login Test,Chrome 71.0.3578.98,,2018-12-20 18:59:34,2018-12-20 18:59:47,12.693s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-20 18:59:34,2018-12-20 18:59:37,2.602s,PASSED
+"navigateToUrl(""https://webapp-jawaid.casitron.com/login"")",Chrome 71.0.3578.98,,2018-12-20 18:59:37,2018-12-20 18:59:46,9.243s,PASSED
+"setText(findTestObject(""Object Repository/Page_Member Login - Casitron Limite/input_User name_username (1)""), ""TST_TESTUSER1"")",Chrome 71.0.3578.98,,2018-12-20 18:59:46,2018-12-20 18:59:46,0.120s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Member Login - Casitron Limite/input_Password_password (1)""), ""gksac6Gz+3UdXMBwyFfMUQ=="")",Chrome 71.0.3578.98,,2018-12-20 18:59:46,2018-12-20 18:59:47,0.109s,PASSED
+"click(findTestObject(""Object Repository/Page_Member Login - Casitron Limite/span_Login (1)""))",Chrome 71.0.3578.98,,2018-12-20 18:59:47,2018-12-20 18:59:47,0.079s,PASSED
+"click(findTestObject(""Object Repository/Page_Member Login - Casitron Limite/p_Invalid username or password""))",Chrome 71.0.3578.98,,2018-12-20 18:59:47,2018-12-20 18:59:47,0.312s,FAILED
